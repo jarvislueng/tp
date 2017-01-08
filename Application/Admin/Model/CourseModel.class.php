@@ -14,4 +14,9 @@ class FormModel extends Model{
     protected $_auto = array(
         array('crete_time', 'time', 1, 'function'),
     );
+    protected $id;
+    protected $title;
+    protected $content;
+    protected $type;
+    protected $decribe;
 }
