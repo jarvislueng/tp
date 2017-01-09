@@ -34,12 +34,12 @@
 </script>
 <body>
 <div class="panel admin-panel margin-top" id="add">
-  <div class="panel-head"><strong><span class="icon-pencil-square-o"></span> 内容</strong></div>
+  <div class="panel-head"><strong><span class="icon-pencil-square-o"></span> 增加内容</strong></div>
   <div class="body-content">
     <form method="post" class="form-x" action="" name="form" enctype ="multipart/form-data">
     <div class="form-group">
         <div class="label">
-          <label>课程名称：</label>
+          <label>标题：</label>
         </div>
         <div class="field">
           <input type="text" id="title" class="input w50" value="{$data.title}" name="title" data-validate="required:请输入标题" />
